@@ -10,5 +10,6 @@ services:
     volumes:
       - .:/home/jovyan/work
     environment:
+      - GRANT_SUDO=yes
       - JUPYTER_ENABLE_LAB=yes
       - JUPYTER_TOKEN=token
