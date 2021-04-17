@@ -1,4 +1,4 @@
-FROM jupyter/base-notebook
+FROM jupyter/scipy-notebook
 
 USER root
 RUN apt-get update
