@@ -13,3 +13,5 @@ services:
       - GRANT_SUDO=yes
       - JUPYTER_ENABLE_LAB=yes
       - JUPYTER_TOKEN=token
+    command: "start-notebook.sh \
+      --NotebookApp.iopub_data_rate_limit=1.0e10"
