@@ -1,4 +1,4 @@
-FROM jupyter/tensorflow-notebook:latest
+FROM jupyter/minimal-notebook:latest
 
 ARG conda_env=python38
 ARG py_ver=3.8
