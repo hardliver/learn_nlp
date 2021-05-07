@@ -3,6 +3,7 @@ hmmlearn==0.2.5
 jieba==0.42.1
 mplfinance==0.12.7a12
 nltk==3.6.1
+opencv-python==4.5.1.48
 pandas==1.2.4
 python-Levenshtein==0.12.2
 scikit-learn==0.24.1

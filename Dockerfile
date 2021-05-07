@@ -14,7 +14,7 @@ ENV PATH $CONDA_DIR/envs/${conda_env}/bin:$PATH
 
 USER root
 RUN apt-get update
-RUN apt-get install -y build-essential
+RUN apt-get install -y build-essential python3-opencv
 
 RUN pip install pip -U
 COPY --chown=${NB_UID}:${NB_GID} ./requirements.txt /tmp/
